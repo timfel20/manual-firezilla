@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>firezilla</title>
+</head>
+<body>
+    <main>
+        <h2>pasos para instalar y configurar FileZilla </h2>
+        <p>¿Que es Firezilla?</p>
+        <p>FileZilla es un software FTP (Protocolo de transferencia de archivos) gratuito y de código abierto que te permite transferir archivos entre tu computadora y un servidor. Te permite subir, descargar y gestionar archivos, así como editar y renombrar archivos y carpetas en tu servidor</p>
+        <h2>Ahora, empecemos con el proceso de instalación y configuración:</h2>
+       <ul>
+        <li>
+            Instalar y configurar xampp. iniciar firezilla. Haga clic en admin para que lo lleve al servidor firezilla.
+        </li>
+        <li> Crear una cuenta de usuario:
+            Bajo "Editar", seleccione "Usuarios" y haga clic en el botón "Agregar" para crear una nueva cuenta de usuario. Cree una cuenta de administrador. Ingrese un nombre de usuario y contraseña para la cuenta y especifique el directorio al que el cliente puede acceder a los archivos.
+            <div class="image-container"><img src="imagenes/user-account.png" alt="imagen de manual"></div>
+        </li>
+        <li>
+            Establecer permisos:
+            Haga clic en la cuenta de usuario creada y haga clic en la pestaña "Carpetas compartidas". Seleccione el directorio raíz del usuario y haga clic en el botón "Agregar". Elija los siguientes permisos: "Leer", "Escribir", "Listar", "Eliminar" y "Agregar".
+            <div class="image-container"><img src="imagenes/admin.png" alt="imagen de manual"></div>
+        </li>
+        <li>
+            Crear otra cuenta para otro cliente, especificar el directorio al que el cliente puede acceder y dar permisos de "leer" y "escribir", pero no de "eliminar".
+            <div class="image-container"><img src="imagenes/usertest.png" alt="imagen de manual"></div>
+        </li>
+        <li>
+            Conectar el cliente:
+            Descargue e instale el software cliente FileZilla en el ordenador del cliente. Inicie el software e ingrese la dirección IP del servidor en el campo "Host". Ingrese el nombre de usuario y la contraseña para la cuenta creada.
+            <div class="image-container"><img src="imagenes/client.png" alt="imagen de manual"></div>
+        </li>
+        <li>
+            Probar la conexión:
+            El cliente no necesita tener instalado XAMPP. Solo necesita usar el cliente FileZilla para conectarse.
+        </li>
+        </ul>
+        <h2>para connectar como cliente</h2>
+        <p>ip servidor:   192.168.1.117</p>
+        <p>usuario:   usertest1</p>
+        <p>contraseña:  usertest1</p>
+     
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body {
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+h2 {
+    margin: 30px 0;
+    font-style: bold italic;
+    font-size: 1.6em;
+    color: #bc1717;
+}
+
+ul{
+    padding: 10px;
+}
+
+li{
+    text-align: left;
+    margin: 8px;
+}
+
+.image-container{
+    max-width: 650px;
+    margin: 0 auto;
+}
+.image-container img{
+    max-width: 100%;
+    margin: 30px 0;
+    border: 4px solid grey;;
+}
+    
+   
